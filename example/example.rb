@@ -1,13 +1,3 @@
-Ruffini
-=======
-
-Ruffini is a markov text library that is small, straightforward
-and allows you to do things like set the dictionary entry from 
-which new text will be generated.
-
-Check out this usage example:
-
-```ruby
 require 'ruffini'
 
 EXAMPLE = <<~TEXT 
@@ -34,4 +24,3 @@ puts database.generate(10, "I")
 # then load it like this
 # database = Ruffini::Markov.new(1, "my_database.markov")
 # depth must remain the same!
-```
